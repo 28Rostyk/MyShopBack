@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\smaku\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js i bcryptjs
+
+PATH: 
+  C:\Users\smaku\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\smaku\bin;C:\Python311\Scripts;C:\Python311;C:\Python310\Scripts;C:\Python310;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Users\smaku\AppData\Local\Microsoft\WindowsApps;C:\Users\smaku\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\smaku\AppData\Local\GitHubDesktop\bin;C:\Users\smaku\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\smaku\OneDrive\Desktop\MyShopBack\package.json: Unexpected token } in JSON at position 446
+      at JSON.parse (<anonymous>)
+      at C:\Users\smaku\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\smaku\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\smaku\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "MyShopBack",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/28Rostyk/MyShopBack.git",
+    "author": "28Rostyk <107403659+28Rostyk@users.noreply.github.com>",
+    "license": "MIT",
+  
+    "scripts": {
+      "start": "cross-env NODE_ENV=production node ./server.js",
+      "start:dev": "cross-env NODE_ENV=development nodemon ./server.js",
+      "lint": "eslint **/*.js",
+      "lint:fix": "eslint --fix **/*.js"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
